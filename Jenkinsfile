@@ -41,9 +41,4 @@ pipeline {
             // Add actions to perform on failure
         }
     }
-    post {
-        always {
-            cleanWs()
-        }
-    }
 }
